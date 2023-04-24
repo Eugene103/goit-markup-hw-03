@@ -29,7 +29,7 @@
   padding-left: 15px;
   padding-right: 15px;
 }
-.img {
+img {
   display: block;
 }
 body {
@@ -304,7 +304,7 @@ body {
 }
 .logo-fr {
   display: inline-block;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 
   color: var(--color-primary);
   font-family: var(--second-tex);
@@ -322,6 +322,12 @@ body {
 .fr-text {
   color: var(--color-light);
   width: 264px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /*portfolio.html*/
 .portfolio {
@@ -353,7 +359,7 @@ body {
   padding-right: 24px;
   padding-left: 24px;
 
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--color-accent);
   background-color: var(--color-light);
   color: var(--color-primary);
   font-family: var(--main-tex);
@@ -370,7 +376,7 @@ body {
 .filters .btn:focus {
   background-color: var(--color-pressed-st);
   color: var(--color-white-bk);
-  border: 1px solid #e7e9fc;
+  border: 1px solid transparent;
 }
 /*row*/
 .row {
